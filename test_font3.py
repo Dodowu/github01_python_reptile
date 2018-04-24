@@ -10,7 +10,7 @@ import re
 headers = {
 	'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
 }
-#起点全部书籍第一页
+#起点全部书籍第一页，实际爬取的小说 圣墟-辰东 的字数
 url = 'https://www.qidian.com/all?page=1'
 
 #获得反爬字体（小说字数）的html源码并解析
